@@ -28,12 +28,12 @@ $(function () {
      * Comment the lines out to remove the grid
      */
 
-    // for (let i = 100; i < canvas.width; i += 100) {
-    //   createPlatform(i, canvas.height, -1, -canvas.height);
-    // }
-    // for (let i = 100; i < canvas.height; i += 100) {
-    //   createPlatform(canvas.width, i, -canvas.width, -1);
-    // }
+     for (let i = 100; i < canvas.width; i += 100) {
+       createPlatform(i, canvas.height, -1, -canvas.height);
+     }
+     for (let i = 100; i < canvas.height; i += 100) {
+       createPlatform(canvas.width, i, -canvas.width, -1);
+     }
 
     /////////////////////////////////////////////////
     //////////ONLY CHANGE BELOW THIS POINT///////////
@@ -43,6 +43,13 @@ $(function () {
     // Create platforms
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
+createPlatform(400, 601, 75, 20);
+createPlatform(500, 462, 50, 20);
+createPlatform(600, 323, 25, 20);
+createPlatform(1025, 500, 10,10);
+createPlatform(1125, 361, 5, 5);
+createPlatform(1025, 223, 10, 10);
+createPlatform(900, 124, 10, 10);
 
 
 
@@ -53,8 +60,9 @@ $(function () {
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
 
-
-
+createCollectable('kennedi', 1110, 100, 0, 0);
+createCollectable('diamond', 885, 60, 0, 0);
+createCollectable('steve', 600, 250, 1, 1)
 
     // TODO 3
     // Create cannons
@@ -62,7 +70,9 @@ $(function () {
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
 
-
+createCannon('right', 750, 1000, 20, 5)
+createCannon('right', 100, 1000, 20, 5)
+createCannon('right', 625, 1000, 20, 5)
 
 
     /////////////////////////////////////////////////
