@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Practice Using CSS</title>
+        <style>
+                body {
+                background: MidnightBlue;
+                color: RoyalBlue;
+                padding: 10px;
+                font-family: arial;
+                font-size: 20px;
+            }
+            #all-contents {
+                margin: auto;
+                justify-content: center;
+            }
+            /* navigation menu */
+            nav {
+                background: tomato;
+                margin: auto;
+                display: flex;
+                padding:10px;
+                border-radius: 10px;
+                border-color: black;
+                margin: 0 auto;
+                margin-bottom: 15px;
+                max-width: fit-content;
+                box-shadow: 6px 6px #0000004b;
+                width: 1500px;
+            }
+            h1 {
+                display: flex;
+                align-items: center;
+                color: RoyalBlue;
+                flex: 1;
+                margin: 10px;
+                font-style: oblique;
+                font-size: 40px;
+                padding: 10px;
+            }
+            #nav-ul {
+                list-style-image: none;
+            }
+            .nav-li {
+                display: inline-block;
+                padding: 5px;
+            }
+            .nav-a {
+                text-decoration: none;
+                color: Maroon;
+                padding-right: 25px;
+            }
+    
+            /* main container area beneath menu */
+            main {
+                background: Tomato;
+                display: flex;
+                border-radius: 10px;
+                border-color: black;
+                max-width: 1000px;
+                justify-content: center;
+                box-shadow: 6px 6px #0000004b;
+                margin: auto;
+            }
+            a {
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+                padding-right: 100px;
+            }
+         .content h1 {
+            display: flex;
+                align-items: center;
+                color: beige;
+                flex: 1;
+                margin: 0;
+                font-style: oblique;
+                font-size: 40px;
+                padding: 10px;
+         }
+         
+         #portfolio {
+             list-style-type: none;
+             padding-left: 0;
+         }
+         
+         #portfolio li {
+            transition: 150ms;
+             background: Maroon;
+             padding: 10px;
+             border-radius: 10px;
+             margin-bottom: 10px;
+             margin-left: 20px;
+             margin-right: 20px;
+             box-shadow: 6px 5px #0000004b;
+             margin-bottom: 15px;
+         }
+         
+         #portfolio li:hover {
+             background: Navy;
+             box-shadow: 10px 8px #0000004b;
+         } 
+         
+         #portfolio a {
+             text-decoration: none;
+             color: Tomato;
+         }
+         h2 {
+            margin-left: 10px;
+         }
+        </style>
+    </head>
+
+    <body>
+        <div id="all-contents">
+        <nav>
+            <br>
+            <h1>My Favorite Movies/TV Shows</h1>
+            <ul id="nav-ul">
+                <li class="nav-li"><a class="nav-a" href="index.html">Home</a></li>
+                <li class="nav-li"><a class="nav-a" href="portfolio.html">Portfolio</a></li>
+            </ul>
+        </nav>
+        <main>
+        <div class="content">
+          <!-- PUT YOUR NAME AND CLASS PERIOD BELOW -->
+            <h2>A 5th Hour Project by: Jonathan Zitzmann</h2>
+            <ul id="portfolio">
+            <li><a href="https://www.youtube.com/watch?v=JTSoD4BBCJc" target="_blank">The Hobbit: Short people and a wizard start a journey</a></li>
+            <li><a href="https://www.youtube.com/watch?v=CZ1CATNbXg0" target="_blank">Wall-E: Garbage robot in love helps plump humans return to Earth</a></li>
+            <li><a href="https://www.youtube.com/watch?v=kkrGBlvGK4I" target="_blank">Over The Hedge: Crazy animals steal food from humans</a></li>
+            <li><a href="https://www.youtube.com/watch?v=QWBKEmWWL38" target="_blank">Jurassic Park: An attempt at a dinosaur park fails</a></li>
+            <li><a href="https://www.youtube.com/watch?v=CwXOrWvPBPk" target="_blank">Shrek: An ogre and a donkey go on a mystical journey</a></li>
+            <li><a href="https://www.youtube.com/watch?v=W_H7_tDHFE8" target="_blank">Cars: In a world of living cars, a racer is humbled</a></li>
+            <li><a href="https://www.youtube.com/watch?v=oKiYuIsPxYk" target="_blank">How To Train Your Dragon: Vikings find peace with dragons</a></li>
+            <li><a href="https://www.youtube.com/watch?v=XkkzKHCx154" target="_blank">Indiana Jones: A history professor searches for treasures</a></li>
+            <li><a href="https://www.youtube.com/watch?v=siLm9q4WIjI" target="_blank">Kung Fu Panda: A fat panda was chosen to become the dragon warrior</a></li>
+            <li><a href="https://www.youtube.com/watch?v=naQr0uTrH_s" target="_blank">Pirates of the Caribbean: A group of unexpected allies accopmlish their desires</a></li>
+            <li><a href="https://www.youtube.com/watch?v=zzCZ1W_CUoI" target="_blank">Despicable Me: A villain adopts three children and starts to change his ways</a></li>
+            <li><a href="https://www.youtube.com/watch?v=ead9HCX9fe4" target="_blank">Megamind: A super villain asserts dominance on a regular villain</a></li>
+
+            </ul>
+        </div>
+        </main>
+      </div>
+    </body>
+</html>
