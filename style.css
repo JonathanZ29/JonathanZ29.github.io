@@ -53,6 +53,12 @@ main {
     flex: 1;
     padding: 15px;
 }
+#secretbutton {
+    font-family: Arial;
+    color: beige;
+    margin-right: 25px;
+    opacity: .25;
+}
 
 /* portfolio styles */
 #interests {
